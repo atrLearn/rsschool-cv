@@ -1,1 +1,1 @@
-https://atrLearn.github.io/rsschool-cv/cv
+https://atrLearn.github.io/rsschool-cv
