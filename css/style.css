@@ -35,7 +35,7 @@ body {
 }
 
 .nav {
-    background-color: #829985;
+    background-color: #697c6b;
 }
 
 .nav-list {
@@ -91,6 +91,12 @@ body {
     border-bottom: 1px solid #829985;
 }
 
+.section:nth-child(8),
+.section:nth-child(9) {
+    border-bottom: none;
+    margin-bottom: 20px;
+}
+
 .section:nth-child(2n+1) {
     margin-left: 48px;
 }
@@ -138,7 +144,34 @@ body {
     color: #2929b7;
 }
 
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px;
 
+    color: #fff;
+    background-color: #697c6b;
+}
+
+.github-link {
+    color: #fff;
+    text-decoration: none;
+    line-height: 45px;
+}
+
+.github-link:hover {
+    color: burlywood;
+}
+
+.rs-school{
+    width: 121px;
+    height: 45px;
+
+    background-image: url("../assets/svg/rs_school_js.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
 
 @media (max-width: 768px) {
     .section {
