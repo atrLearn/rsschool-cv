@@ -106,29 +106,6 @@ body {
     font-size: 30px;
 }
 
-.occupation {
-    font-size: 18px;
-    text-align: center;
-}
-
-.contacts-item a {
-    color: darkblue;
-
-    transition: color .3s;
-}
-
-.contacts-item a:hover {
-    color: #2929b7;
-}
-
-.skills-list {
-    padding-left: 20px;
-}
-
-.skills-item {
-    list-style-type: circle;
-}
-
 .description {
     font-style: oblique;
 }
@@ -143,37 +120,25 @@ body {
     color: #946a6a;
 }
 
-.courses-list {
+.section {
     padding-left: 20px;
 }
 
-.courses-item {
+.section-item {
     list-style-type: circle;
 }
 
-.courses-item a {
+.section-item a {
     color: darkblue;
 
     transition: color .3s;
 }
 
-.courses-item a:hover {
+.section-item a:hover {
     color: #2929b7;
 }
 
-.projects-item {
-    list-style-type: circle;
-}
 
-.projects-item a {
-    color: darkblue;
-
-    transition: color .3s;
-}
-
-.projects-item a:hover {
-    color: #2929b7;
-}
 
 @media (max-width: 768px) {
     .section {
