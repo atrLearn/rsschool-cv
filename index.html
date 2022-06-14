@@ -111,14 +111,47 @@
 
         <section class="section" id="code">
             <h2 class="section-title">Code</h2>
+
+            <p class="description">Examples are taken from my solutions on <a href="https://www.codewars.com" target="_blank">Codewars</a></p>
+
+            <pre class="code-example"><code>const abbrevName = name =>
+    name.split(' ')
+        .map(item => item[0])
+        .map(item => item.toUpperCase())
+        .join('.');
+            </code></pre>
+            <pre class="code-example"><code>const positiveSum = arr => arr
+    .filter(item => item > 0)
+    .reduce((item, acc) => acc + item, 0);
+            </code></pre>
         </section>
 
         <section class="section" id="courses">
             <h2 class="section-title">Courses</h2>
+
+            <ul class="courses-list">
+                <li class="courses-item">
+                    <a href="https://ru.code-basics.com/languages/html" target="_blank">code-basics HTML</a>
+                </li>
+                <li class="courses-item">
+                    <a href="https://ru.code-basics.com/languages/css" target="_blank">code-basics CSS</a>
+                </li>
+                <li class="courses-item">
+                    <a href="https://rs.school/js/" target="_blank">RS-school Front-End</a>
+                </li>
+            </ul>
         </section>
 
         <section class="section" id="projects">
             <h2 class="section-title">Projects</h2>
+
+            <p class="description">There are no other projects here yet, but this section will be replenished</p>
+
+            <ul class="projects-list">
+                <li class="projects-item">
+                    <a href="https://atrLearn.github.io/hexal/">My CV</a>
+                </li>
+            </ul>
         </section>
 
         <section class="section" id="education">

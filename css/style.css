@@ -73,6 +73,10 @@ body {
     margin-right: 50px;
 }
 
+.avatar {
+    border-radius: 50% 50% 0 0;
+}
+
 .primary-right-section {
     text-align: center;
 }
@@ -82,11 +86,13 @@ body {
 }
 
 .section {
-    width: calc(50% - 24px);
+    width: calc(50% - 48px);
+
+    border-bottom: 1px solid #829985;
 }
 
 .section:nth-child(2n+1) {
-    margin-left: 24px;
+    margin-left: 48px;
 }
 .section-title {
     font-size: 20px;
@@ -107,6 +113,12 @@ body {
 
 .contacts-item a {
     color: darkblue;
+
+    transition: color .3s;
+}
+
+.contacts-item a:hover {
+    color: #2929b7;
 }
 
 .skills-list {
@@ -115,6 +127,52 @@ body {
 
 .skills-item {
     list-style-type: circle;
+}
+
+.description {
+    font-style: oblique;
+}
+
+.description a {
+    color: inherit;
+
+    transition: color .3s;
+}
+
+.description a:hover {
+    color: #946a6a;
+}
+
+.courses-list {
+    padding-left: 20px;
+}
+
+.courses-item {
+    list-style-type: circle;
+}
+
+.courses-item a {
+    color: darkblue;
+
+    transition: color .3s;
+}
+
+.courses-item a:hover {
+    color: #2929b7;
+}
+
+.projects-item {
+    list-style-type: circle;
+}
+
+.projects-item a {
+    color: darkblue;
+
+    transition: color .3s;
+}
+
+.projects-item a:hover {
+    color: #2929b7;
 }
 
 @media (max-width: 768px) {
