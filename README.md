@@ -1,1 +1,1 @@
-# rsschool-cv
+https://atrLearn.github.io/rsschool-cv
